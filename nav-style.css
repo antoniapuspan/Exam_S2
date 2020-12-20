@@ -1,5 +1,35 @@
 nav {
-	display: grid
-	height: auto;
-	max-width: 100%;
+	display: flex;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	overflow: hidden;
+	padding-right: 40px;
+	height: 80px;
+	margin-top: 40px;
+	width: 100%;
+	background-color: #1C282E;
+	font-family: 'Montserrat', cursive;
+	list-style: none;
+}
+
+nav a {
+	float: left;
+	font-size: 18px;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px 25px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+}
+
+#logo {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#logo img {
+	width: 100px;
+	margin-left: 40px;
 }
