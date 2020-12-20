@@ -9,3 +9,37 @@ body {
     font-family: 'Aleo', serif;
     background-color: #1C282E ;
 }
+.hero-image img{
+ 
+
+background-image: url(img/embrace.JPG);
+	width: 100%;
+	
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: end;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: gray;
+}
+
+
+#shop-button {
+	display: inline-block;
+	background-color: transparent;
+	padding: 1px;
+	width: 100px;
+	text-align: center;
+	border: 0.3px solid aqua;
+}
