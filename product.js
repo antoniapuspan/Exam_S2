@@ -1,6 +1,5 @@
 let productID = window.location.href
 productID = productID.slice(productID.indexOf("productID=") + 10)
-let products = []
 getData()
 
 function getData() {
@@ -9,7 +8,6 @@ function getData() {
         .then(products => {
             products.forEach(product => {
                 if (product.id == productID) {
-                    console.log(product)
                     document.getElementById("productTitle").innerHTML = product.title.rendered
                     document.getElementById("priceSpan").innerHTML = product.price
                     document.getElementById("shortDesc").innerHTML = product.shortdesc

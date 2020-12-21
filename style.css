@@ -57,19 +57,42 @@ body {
 	font-weight: 300;
 	color: #104547;
 }
+#video-div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+#video {
+	width: 90vw;
+	height: 51vw;
+}
+
 @media only screen and (min-width: 1024px) {
 	.hero-text {
 		width: 50%;
 		margin-left: auto;
 		margin-top: 200px;
-		
+
 	}
+
 	.hero-image {
 		height: 0;
 	}
+
 	.hero-text > img {
-	width: 40%;
-	display: flex;
-	margin-bottom: 50px;
-}
+		width: 40%;
+		display: flex;
+		margin-bottom: 50px;
+
+	}
+	#video-div {
+		margin-top: 250px;
+	}
+	#video {
+		width: 700px;
+		height: 390px;
+		
+	}
+
 }
