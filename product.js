@@ -28,6 +28,7 @@ function showData(){
             document.getElementById("productTitle").innerHTML = product.title.rendered
             document.getElementById("shortDesc").innerHTML = product.shortDesc
             document.getElementById("paragraphs").innerHTML = product.paragraphs
+            document.getElementById("price").innerHTML = product.price
             document.getElementById("main-img").src = "img/" + product.image
             
         }
