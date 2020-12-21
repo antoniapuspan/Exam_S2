@@ -92,6 +92,7 @@ a {
         height: 40px;
         flex-direction: row;
         justify-content: space-between;
+		background-color: rgba(28, 40, 46, 1);
     }
 
     #nav-logo{
