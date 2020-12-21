@@ -25,7 +25,7 @@ body {
 }
 
 #middle-text > h1,
-p,
+#middle-text > p,
 #shortDesc {
 	display: flex;
 	margin: auto;
@@ -47,6 +47,16 @@ p,
 	color: white;
 }
 
+.paragraphs {
+	font-family: adrianna;
+	margin-left: 30px;
+}
+.paragraphs h2 {
+	font-size: 20px;
+}
+#italic {
+	font-style: italic;
+}
 @media only screen and (min-width: 600px) {
 	#main-img {
 		width: 45%;
@@ -57,7 +67,6 @@ p,
 	#product-content {
 		display: flex;
 		flex-direction: row;
-		align-items: 
 		
 	}
 	.add-button {

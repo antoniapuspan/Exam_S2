@@ -4,9 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/logo.svg">
 	<title>Product</title>
 	<link rel="stylesheet" href="product.css">
 	<link rel="stylesheet" href="nav-style.css">
+	<link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
@@ -42,7 +44,7 @@
 	<div id="product-details">
 		<div id="product-content">
 			<img src="img/img-1.jpg" alt="" id="main-img">
-			<div id="product-content">
+			<div>
 				<div id="middle-text">
 					<h1 id="productTitle">Embrace 1</h1>
 					<p class="price">DKK 349</p>
@@ -50,19 +52,56 @@
 					<button class="add-button">ADD TO CART</button>
 					<div id="separator"></div>
 				</div>
+				<div class="paragraphs">
+					<h2>Overview</h2>
+					<h3 id="italic">Details:</h3>
+					<ul>
+						<li>100% organic cotton</li>
+						<li>Comfortable and relaxed fit</li>
+						<li>Eco-friendly</li>
+					</ul>
+
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="paragraphs">
-		<h2>Overview</h2>
-		<h2 id="italic">Details</h2>
-		<ul>
-			<li>100% organic cotton</li>
-			<li>Comfortable and relaxed fit</li>
-			<li>Eco-friendly</li>
-		</ul>
+	<footer>
+		<div id="f-half1">
+			<div id="info-menu">
+				<div id="del-info-div">
+					<a href="">Delivery</a>
+					<a href="">Returns</a>
+					<a href="">Payments</a>
+				</div>
+				<div id="contact-pgs-div">
+					<a href="">About us</a>
+					<a href="">Contact</a>
+					<a href="">FAQ</a>
+				</div>
+			</div>
+			<div id="social-media-div">
+				<a href="">
+					<img class="icons" src="icons/email.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/facebook.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/instagram.png">
+				</a>
+				<a href="">
+					<img class="icons" src="icons/linkedin.png">
+				</a>
 
-	</div>
+			</div>
+			<div id="logo-div">
+				<img class="logo-style" src="img/logo.svg">
+			</div>
+		</div>
+		<div id="f-half2">
+			<p> © 2020 Nordic Casual Copenhagen, Denmark <br> Terms and conditions | Privacy | Cookies Policy </p>
+		</div>
+	</footer>
 </body>
 <script src="navscript.js"></script>
 <script src="product.js"></script>
