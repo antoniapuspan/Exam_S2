@@ -34,7 +34,8 @@
     transform: translateX(-50vw);
     transition-duration: .6s;
     height: 100vh;
-    background-color: #1C282E;
+    background-color: rgba(28, 40, 46, 0.88);
+	
 }
 
 .translate0{
@@ -42,8 +43,9 @@
 }
 
 #nav-logo{
-    width: 50px;
+    width: 70px;
     margin-top: 50px;
+	margin-left: 10px;
 }
 
 #nav-btns{
@@ -53,15 +55,17 @@
 }
 a {
 	color: white;
+	font-family: montserrat;
+	font-size: 15px;
+	
 }
 .nav-btn{
-    background-color: #1C282E;
+    background-color: rgba(28, 40, 46, 0);
     border: 0;
     align-items: flex-start;
     text-align: left;
     transition-duration: .2s;
-    font-size: 20px;
-	font-family: montserrat; 
+	margin:  10px;
 }
 
 .nav-btn:hover{
@@ -75,7 +79,7 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
-    #burger-btn-div{
+    #burger-btn-div {
         display: none;
     }
 
@@ -91,7 +95,12 @@ a {
     }
 
     #nav-logo{
-        margin: 0;
+        margin: auto 20px;
+		border: 0;
+		width: 100px;
+		display: flex;
+		align-items: center;
+		
     }
 
     #nav-btns{
