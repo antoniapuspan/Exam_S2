@@ -11,15 +11,31 @@
 
 <body>
 	<header>
-		<nav>
-			<div id="logo"><img src="img/logo.svg"></div>
-			<!--<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="">COLLECTIONS</a></li>
-				<li><a href="">CONTACT US</a></li>
-				<li><a href="">OUR STORY</a></li>
-			</ul>-->
-		</nav>
+		<div id="burger-btn-div">
+			<button id="burger-btn" onclick="toggleBurger()">
+				<img id="burger-icon" src="icons/burger-icon.png" alt="">
+				<img id="close-icon" class="disp-none" src="icons/x-icon.png" alt="">
+			</button>
+		</div>
+		<div id="navbar">
+			<div id="body-nav">
+				<a id="logo-anchor" href="#">
+					<img id="nav-logo" src="https://modnord.com/img/API/mn-white-logo.png" alt="">
+				</a>
+				<div id="nav-btns">
+					<button class="nav-btn">
+						<a href="index.html">Home</a>
+					</button>
+					<button class="nav-btn">
+						<a href="index.html">About</a>
+					</button>
+					<button class="nav-btn">
+						<a href="index.html">Contact</a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div id="navbar-placeholder"></div>
 	</header>
 
 	<h1 id="productTitle"></h1>
@@ -31,6 +47,7 @@
 	</div>
 
 </body>
+<script src="navscript.js"></script>
 <script src="product.js"></script>
 
 </html>
