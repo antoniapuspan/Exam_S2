@@ -2,7 +2,8 @@ footer {
 	width: 100%;
 	background-color: white;
 	padding-top: 20px;
-	border-top: 1px solid gray
+	border-top: 1px solid gray;
+	margin-top: 200px;
 }
 
 #f-half1 {
