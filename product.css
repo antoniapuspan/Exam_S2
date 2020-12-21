@@ -11,6 +11,10 @@ body {
 	background-color: white;
 }
 
+#priceSpan{
+	margin-left: 3px;
+}
+
 #main-img {
 	display: flex;
 	width: 70%;

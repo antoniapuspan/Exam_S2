@@ -11,7 +11,7 @@ function getData() {
 
 
 function initData(productsData) {
-    let dataDiv = document.getElementById("dataDiv")
+    let dataDiv = document.getElementById("data-div")
 
     let myData = document.createElement("p");
     myData.style.display = "none"
@@ -25,10 +25,11 @@ function initData(productsData) {
 function showData(){
     products.forEach(product =>{
         if(product.id == productID){
+            console.log(product)
             document.getElementById("productTitle").innerHTML = product.title.rendered
-            document.getElementById("shortDesc").innerHTML = product.shortDesc
-            document.getElementById("paragraphs").innerHTML = product.paragraphs
-            document.getElementById("price").innerHTML = product.price
+            document.getElementById("priceSpan").innerHTML = product.price
+            document.getElementById("shortDesc").innerHTML = product.shortdesc
+            // document.getElementById("paragraphs").innerHTML = product.paragraphs
             document.getElementById("main-img").src = "img/" + product.image
             
         }
