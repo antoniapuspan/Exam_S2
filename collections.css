@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Aleo', serif;
+	background-color: white;
+}
+
+.hero-div {
+	width: 100vw;
+	height: 250px;
+	background-color: #d8d8d8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-div h1 {
+	margin: 0;
+	padding: 0;
+	color: #656565;
+}
+
+#products-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+
+	width: 250px;
+	height: 370px;
+	background-color: rgb(201, 201, 201);
+	margin: 10px;
+}
+
+.card > h3,
+p {
+	display: flex;
+	justify-content: center;
+}
+
+.card-img {
+	width: 250px;
+}
+
+.shop-button {
+	height: 30px;
+	border: solid 1px aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
