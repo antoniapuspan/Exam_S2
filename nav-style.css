@@ -23,6 +23,7 @@
     border: 0;
     background-color: rgba(255, 255, 255, 0);
     outline: 0;
+    position: fixed;
 }
 
 #burger-btn img{
@@ -35,7 +36,7 @@
     transition-duration: .6s;
     height: 100vh;
     background-color: rgba(28, 40, 46, 0.88);
-	
+	position: fixed;
 }
 
 .translate0{
