@@ -9,8 +9,54 @@ body {
 	font-family: 'Aleo', serif;
 	background-color: white;
 }
+
 #main-img {
 	display: flex;
 	width: 70%;
+	margin: 0 auto;
+}
+
+#product-details {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around
+}
+
+#middle-text > h1,
+p,
+#shortDesc {
+	display: flex;
 	margin: auto;
+	justify-content: center;
+	align-content: center;
+	padding: 15px;
+}
+
+.add-button {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	border: 0;
+	width: 200px;
+	height: 40px;
+	background-color: #136482;
+	color: white;
+}
+
+@media only screen and (min-width: 600px) {
+	#main-img {
+		width: 30%;
+		margin-left: 25%;
+	}
+
+	#product-content {
+		display: flex;
+		flex-direction: row;
+	}
+	.add-button {
+		display: flex;
+		margin: auto;
+	}
 }

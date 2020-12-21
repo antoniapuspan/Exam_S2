@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 #navbar-placeholder{
     height: 40px;
 }
@@ -34,7 +34,7 @@
     transform: translateX(-50vw);
     transition-duration: .6s;
     height: 100vh;
-    background-color: rgb(194, 194, 194);
+    background-color: #1C282E;
 }
 
 .translate0{
@@ -51,14 +51,17 @@
     flex-direction: column;
     margin-top: 20px;
 }
-
+a {
+	color: white;
+}
 .nav-btn{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #1C282E;
     border: 0;
     align-items: flex-start;
     text-align: left;
     transition-duration: .2s;
     font-size: 20px;
+	font-family: montserrat; 
 }
 
 .nav-btn:hover{
@@ -77,7 +80,7 @@
     }
 
     #body-nav{
-        width: 100vw;
+        width: 100%;
         display: flex;
         padding-top: 0px;
         transform: translateX(0vw);
