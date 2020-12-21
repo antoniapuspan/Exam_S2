@@ -49,6 +49,10 @@ p {
 	width: 250px;
 }
 
+.price span{
+	margin-left: 5px
+}
+
 .shop-button {
 	height: 30px;
 	border: solid 1px aqua;
