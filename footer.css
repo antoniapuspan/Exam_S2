@@ -40,9 +40,13 @@ footer {
 }
 
 #f-half2 {
-	text-align: center
+	text-align: center;
+	
 }
-
+#f-half2 p {
+	margin-bottom: 0;
+	font-family: aleo, serif;
+}
 
 @media only screen and (min-width: 1024px) {
 	#f-half1 {

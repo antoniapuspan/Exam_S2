@@ -2,7 +2,6 @@ function getData() {
     fetch("https://antoniapuspan.com/mmd/Semester-2/t9/wordpress/wp-json/wp/v2/t-shirt")
     .then(response => response.json())
     .then(products => {
-		console.log(products)
         var productTemplate = document.getElementById("product-template").content;
         var productsList = document.getElementById("products-list")
         

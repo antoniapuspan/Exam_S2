@@ -39,7 +39,7 @@ body {
 }
 
 .card > h3,
-p {
+.card p {
 	display: flex;
 	justify-content: center;
 	font-family: adrianna, sans-serif;
