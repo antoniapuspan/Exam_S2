@@ -72,12 +72,17 @@ body {
 	.hero-text {
 		width: 50%;
 		margin-left: auto;
-		margin-top: 200px;
+		margin-top: -70vh;
 
 	}
-
+	.hero-image img {
+		min-width: 190vh;
+		min-height: 100vh;
+	}
 	.hero-image {
-		height: 0;
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
 	}
 
 	.hero-text > img {
@@ -87,7 +92,7 @@ body {
 
 	}
 	#video-div {
-		margin-top: 250px;
+		margin-top: 300px;
 	}
 	#video {
 		width: 700px;
